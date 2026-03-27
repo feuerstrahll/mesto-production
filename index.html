@@ -6,7 +6,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mesto</title>
-  <script type="module" crossorigin src="./assets/index-Oant7o7E.js"></script>
+  <script type="module" crossorigin src="./assets/index-Bp2URv_T.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-BOGepL4k.css">
 </head>
 <body class="page">
@@ -47,6 +47,7 @@
           placeholder="Имя"
           minlength="2"
           maxlength="40"
+          pattern="[A-Za-zА-Яа-яЁё\-\s]+"
           required
         >
         <span id="profile-name-input-error" class="popup__error"></span>
@@ -61,7 +62,7 @@
           required
         >
         <span id="profile-description-input-error" class="popup__error"></span>
-        <button type="submit" class="button popup__button">Сохранить</button>
+        <button type="submit" class="button popup__button popup__button_disabled" disabled>Сохранить</button>
       </form>
     </div>
   </div>
@@ -80,7 +81,7 @@
           required
         >
         <span id="avatar-url-input-error" class="popup__error"></span>
-        <button type="submit" class="button popup__button">Сохранить</button>
+        <button type="submit" class="button popup__button popup__button_disabled" disabled>Сохранить</button>
       </form>
     </div>
   </div>
@@ -98,6 +99,7 @@
           placeholder="Название"
           minlength="2"
           maxlength="30"
+          pattern="[A-Za-zА-Яа-яЁё\-\s]+"
           required
         >
         <span id="place-name-input-error" class="popup__error"></span>
@@ -110,7 +112,7 @@
           required
         >
         <span id="place-link-input-error" class="popup__error"></span>
-        <button type="submit" class="button popup__button">Создать</button>
+        <button type="submit" class="button popup__button popup__button_disabled" disabled>Создать</button>
       </form>
     </div>
   </div>
